@@ -423,7 +423,7 @@ export default function ServicesPage() {
           </div>
 
           {/* Services Grid */}
-          <main className='flex-1'>
+          <div className='flex-1'>
             <h2 className='sr-only'>Available Services</h2>
             <div
               className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6'
@@ -540,7 +540,7 @@ export default function ServicesPage() {
               {Math.min(paginatedServices.length, ITEMS_PER_PAGE * currentPage)}{' '}
               of {filteredServices.length} services
             </div>
-          </main>
+          </div>
         </div>
       </div>
     </div>
