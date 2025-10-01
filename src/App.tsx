@@ -91,7 +91,7 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <Router>
-      <SkipNavLink />
+      <SkipNavLink className='left-1/2 -translate-x-1/2' />
       <NuqsAdapter>
         <div className='min-h-screen flex flex-col'>
           <Navbar />
